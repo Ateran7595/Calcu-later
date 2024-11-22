@@ -22,6 +22,7 @@ body{
 }
 
 #display{
+    font-size: 40px;
     display: flex;
     color: black;
     background-color: beige;
@@ -39,9 +40,16 @@ body{
     justify-content: center;
     align-items: center;
     font-weight: bold;
+    
+}
+button{
+    border-style: none;
+    font-size: 30px;
+    color: white;
+    font-weight: bold;
 }
 
-.clear, .sign, .percent{
+.clear, .delete, .percent{
     display: flex;
     justify-content: center;
     align-items: center;
